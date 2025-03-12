@@ -11,5 +11,5 @@ while True:
             print("Unique")
             unique_numbers.add(num)
     except ValueError:
-        print("Invalid input.")
+        print("Invalid input. Enter a number.")
         break
