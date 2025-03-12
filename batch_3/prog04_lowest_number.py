@@ -7,5 +7,9 @@ while True:
         num = int(input("Enter a number: "))
         numbers.append(num)
     except ValueError:
-        print("Invalid input. Enter a number.")
         break
+
+if numbers:
+    print("Lowest number entered:", min(numbers))
+else:
+    print("No valid numbers were entered.")
