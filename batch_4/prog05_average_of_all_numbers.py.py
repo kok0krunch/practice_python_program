@@ -11,3 +11,6 @@ while True:
 
 if numbers:
     average = sum(numbers) / len(numbers)
+    print(f"The average of all entered numbers is {average}.")
+else:
+    print("No valid numbers were entered.")
