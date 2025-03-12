@@ -5,4 +5,4 @@ num2 = int(input("Enter second numer: "))
 
 bigger_num = max(num1, num2)
 
-print(f"The bigger number is: {bigger_num}.")
+print(f"The bigger number is {bigger_num}.")
