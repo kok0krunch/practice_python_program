@@ -8,3 +8,8 @@ while True:
         numbers.append(num)
     except ValueError:
         break
+    
+if numbers:
+    print("The highest number entered is:", max(numbers))
+else:
+    print("No valid numbers were entered.")
