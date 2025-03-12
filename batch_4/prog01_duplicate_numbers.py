@@ -13,3 +13,8 @@ for num in numbers:
         duplicates.add(num)
     else:
         seen.add(num)
+        
+if duplicates:
+    print("Numbers that have duplicates:", duplicates)
+else:
+    print("All numbers are unique")
