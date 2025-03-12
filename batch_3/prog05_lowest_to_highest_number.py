@@ -9,6 +9,5 @@ while True:
     except ValueError:
         break
     
-if numbers:
-    numbers.sort() 
-    print("Numbers from lowest to highest:", numbers)
+numbers.sort() 
+print("Numbers from lowest to highest:", numbers)
